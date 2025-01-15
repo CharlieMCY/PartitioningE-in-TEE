@@ -6,7 +6,7 @@ This tool is designed to identify **bad partitioning issues** in Trusted Executi
 ## Dependencies
 
 - **CodeQL**: [Installation Guide](https://codeql.github.com/docs/)
-- **gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf**: [Download](https://releases.linaro.org/components/toolchain/binaries/) and update the `config.mk` file.
+- **gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf**: [Download](https://releases.linaro.org/components/toolchain/binaries/) and update `config.mk`.
 
 ## Directory Structure
 
@@ -27,10 +27,9 @@ Run the following command to create a CodeQL database:
 ```bash
 $ codeql database create tee_example --language=c-cpp --command=make --overwrite
 ```
-**Note**: If modifications are made to the TEE code, ensure you run `make clean` before executing the above command.
+**Note**: If modifications are made to the project code, ensure you run `make clean` before executing the above command.
 
-### Step 3: Verify Database Creation
-If the CodeQL database is successfully created, a `tee_example` folder will be generated in the current directory.
+A `tee_example` folder will be generated in the current directory.
 
 ```bash
 Finalizing database at /*/benchmark/Lenet5_in_OPTEE/tee_example.
@@ -38,7 +37,7 @@ Finalizing database at /*/benchmark/Lenet5_in_OPTEE/tee_example.
 Finished zipping source archive (153.37 KiB).
 ```
 
-### Step 4: Run the Analysis
+### Step 3: Run the Analysis
 Execute the Python script to obtain detection results:
 ```bash
 $ python ../../real_world_analysis.py
