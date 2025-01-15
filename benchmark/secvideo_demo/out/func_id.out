@@ -1,0 +1,4 @@
+|             col0              |         col1         |
++-------------------------------+----------------------+
+| TA_SECVIDEO_DEMO_CLEAR_SCREEN | call to clear_screen |
+| TA_SECVIDEO_DEMO_IMAGE_DATA   | call to image_data   |

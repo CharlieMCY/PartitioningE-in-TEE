@@ -1,0 +1,5 @@
+| col0 |             col1             |
++------+------------------------------+
+| 0    | call to read_persist_value   |
+| 1    | call to write_persist_value  |
+| 2    | call to delete_persist_value |

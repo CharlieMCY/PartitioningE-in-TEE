@@ -1,0 +1,23 @@
+| col0 |                       col1                       |
++------+--------------------------------------------------+
+| 1    | call to make_netowork_TA_params                  |
+| 2    | call to update_net_agrv_TA_params                |
+| 3    | call to make_convolutional_layer_TA_params       |
+| 4    | call to make_maxpool_layer_TA_params             |
+| 21   | call to make_avgpool_layer_TA_params             |
+| 5    | call to make_dropout_layer_TA_params             |
+| 6    | call to make_connected_layer_TA_params           |
+| 7    | call to make_softmax_layer_TA_params             |
+| 8    | call to make_cost_layer_TA_params                |
+| 15   | call to transfer_weights_TA_params               |
+| 17   | call to save_weights_TA_params                   |
+| 9    | call to forward_network_TA_params                |
+| 10   | call to backward_network_TA_params               |
+| 11   | call to backward_network_TA_addidion_params      |
+| 12   | call to update_network_TA_params                 |
+| 13   | call to net_truth_TA_params                      |
+| 14   | call to calc_network_loss_TA_params              |
+| 16   | call to net_output_return_TA_params              |
+| 18   | call to forward_network_back_TA_params           |
+| 19   | call to backward_network_back_TA_params          |
+| 20   | call to backward_network_back_TA_addidion_params |

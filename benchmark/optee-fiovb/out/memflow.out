@@ -1,0 +1,13 @@
+| col0 |  col1  |        col2         |         col3         |                                   col4                                   |
++------+--------+---------------------+----------------------+--------------------------------------------------------------------------+
+| 0    | memref | ... = ...           | delete_persist_value | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:350:2:350:35 |
+| 0    | memref | ... = ...           | delete_persist_value | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:351:2:351:36 |
+| 0    | memref | ... = ...           | read_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:311:2:311:35 |
+| 0    | memref | ... = ...           | read_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:312:2:312:36 |
+| 1    | memref | ... = ...           | read_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:319:2:319:33 |
+| 1    | memref | call to TEE_MemMove | read_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:326:2:326:12 |
+| 1    | memref | ... = ...           | read_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:329:2:329:30 |
+| 0    | memref | ... = ...           | write_persist_value  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:243:2:243:35 |
+| 0    | memref | ... = ...           | write_persist_value  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:244:2:244:36 |
+| 1    | memref | ... = ...           | write_persist_value  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:263:2:263:33 |
+| 1    | memref | call to TEE_MemMove | write_persist_value  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:268:2:268:12 |

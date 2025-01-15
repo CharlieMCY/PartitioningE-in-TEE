@@ -1,0 +1,13 @@
+|      col0       |       col1       |                                       col2                                        |
++-----------------+------------------+-----------------------------------------------------------------------------------+
+| name            | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:215:95:215:98   |
+| id              | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:215:116:215:117 |
+| delta_refcount  | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:220:84:220:97   |
+| bdisp_refcount  | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:224:86:224:99   |
+| sti_refcount    | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:228:82:228:93   |
+| addr            | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:235:113:235:116 |
+| size            | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:235:127:235:130 |
+| writer          | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:235:141:235:146 |
+| access to array | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:241:87:241:105  |
+| access to array | call to snprintf | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/platform/stub.c:241:108:241:127 |
+| a               | ... = ...        | file:///mnt/disk/synthesis/benchmark/optee-sdp/ta/sdp_ta.c:90:18:90:18            |

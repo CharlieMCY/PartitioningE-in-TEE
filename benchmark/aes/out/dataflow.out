@@ -1,0 +1,65 @@
+|      col0       |  col1  |    col2    |             col3             |      col4       |                                col5                                |
++-----------------+--------+------------+------------------------------+-----------------+--------------------------------------------------------------------+
+| 1               | size   | uint32_t   | ... < ...                    | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:348:6:348:50  |
+| 0               | size   | uint32_t   | ... < ...                    | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:348:6:348:50  |
+| 0               | size   | uint32_t   | call to trace_printf         | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:349:3:350:29  |
+| 1               | size   | uint32_t   | call to trace_printf         | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:349:3:350:29  |
+| 0               | buffer | void *     | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 0               | size   | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | buffer | void *     | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | size   | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | size   | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | size   | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | size   | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | size   | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | size   | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | size   | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | size   | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | & ...  | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | & ...  | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | & ...  | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | & ...  | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | & ...  | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | & ...  | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 1               | & ...  | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| 1               | & ...  | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | size   | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | size   | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | size   | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | size   | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | size   | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | size   | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | size   | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | size   | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | & ...  | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | & ...  | uint32_t   | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | & ...  | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | & ...  | uint32_t   | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | & ...  | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | & ...  | uint32_t * | call to TEE_CipherUpdate     | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| access to array | & ...  | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:360:9:360:24  |
+| access to array | & ...  | uint32_t * | & ...                        | cipher_buffer   | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:362:30:362:51 |
+| 0               | buffer | void *     | ... = ...                    | reset_aes_iv    | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:316:2:316:29  |
+| 0               | buffer | void *     | call to TEE_CipherInit       | reset_aes_iv    | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:322:2:322:15  |
+| 0               | size   | uint32_t   | ... = ...                    | reset_aes_iv    | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:317:2:317:30  |
+| 0               | size   | uint32_t   | call to TEE_CipherInit       | reset_aes_iv    | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:322:2:322:15  |
+| 0               | buffer | void *     | ... = ...                    | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:248:2:248:30  |
+| 0               | buffer | void *     | call to TEE_InitRefAttribute | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:274:2:274:21  |
+| 0               | size   | uint32_t   | ... = ...                    | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:249:2:249:31  |
+| 0               | size   | uint32_t   | ... != ...                   | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:251:6:251:29  |
+| 0               | size   | uint32_t   | call to trace_printf         | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:252:3:253:30  |
+| 0               | size   | uint32_t   | call to TEE_InitRefAttribute | set_aes_key     | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:274:2:274:21  |
+| 0               | a      | uint32_t   | call to ta2tee_algo_id       | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:131:8:131:21  |
+| 0               | a      | uint32_t   | switch (...) ...             | ta2tee_algo_id  | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:59:2:72:2     |
+| 0               | a      | uint32_t   | call to trace_printf         | ta2tee_algo_id  | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:70:3:70:32    |
+| 1               | a      | uint32_t   | call to ta2tee_key_size      | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:135:8:135:22  |
+| 1               | a      | uint32_t   | ... * ...                    | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:158:9:158:26  |
+| 1               | a      | uint32_t   | ... * ...                    | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:171:8:171:25  |
+| 1               | a      | uint32_t   | call to TEE_Malloc           | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:188:8:188:17  |
+| 1               | a      | uint32_t   | call to TEE_InitRefAttribute | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:194:2:194:21  |
+| 1               | a      | uint32_t   | switch (...) ...             | ta2tee_key_size | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:76:2:84:2     |
+| 1               | a      | uint32_t   | ... = ...                    | ta2tee_key_size | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:79:3:79:19    |
+| 1               | a      | uint32_t   | call to trace_printf         | ta2tee_key_size | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:82:3:82:36    |
+| 2               | a      | uint32_t   | call to ta2tee_mode_id       | alloc_resources | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:139:8:139:21  |
+| 2               | a      | uint32_t   | switch (...) ...             | ta2tee_mode_id  | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:88:2:98:2     |
+| 2               | a      | uint32_t   | call to trace_printf         | ta2tee_mode_id  | file:///mnt/disk/synthesis/benchmark/aes/ta/aes_ta.c:96:3:96:32    |

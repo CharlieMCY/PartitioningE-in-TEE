@@ -1,0 +1,4 @@
+| col0 |            col1             |
++------+-----------------------------+
+| 0    | call to register_shared_key |
+| 1    | call to get_hotp            |

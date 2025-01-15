@@ -1,0 +1,4 @@
+| col0 |        col1         |
++------+---------------------+
+| 0    | call to cmd_gen_key |
+| 1    | call to cmd_enc     |

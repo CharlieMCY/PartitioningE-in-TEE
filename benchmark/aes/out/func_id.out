@@ -1,0 +1,6 @@
+| col0 |          col1           |
++------+-------------------------+
+| 0    | call to alloc_resources |
+| 1    | call to set_aes_key     |
+| 2    | call to reset_aes_iv    |
+| 3    | call to cipher_buffer   |

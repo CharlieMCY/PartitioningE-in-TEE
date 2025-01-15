@@ -1,0 +1,6 @@
+| col0 |          col1          |
++------+------------------------+
+| 0    | call to create_region  |
+| 1    | call to destroy_region |
+| 2    | call to update_region  |
+| 3    | call to dump_status    |

@@ -1,0 +1,8 @@
+|                                     col0                                      |
++-------------------------------------------------------------------------------+
+| file:///mnt/disk/synthesis/benchmark/random/host/main.c:51:6:51:24            |
+| file:///mnt/disk/synthesis/benchmark/random/host/main.c:60:6:60:24            |
+| file:///mnt/disk/synthesis/benchmark/random/host/main.c:91:6:91:24            |
+| file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:75:6:75:35 |
+| file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:79:6:79:9  |
+| file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:50:6:50:35 |

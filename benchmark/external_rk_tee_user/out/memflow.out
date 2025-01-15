@@ -1,0 +1,22 @@
+| col0 |  col1  |          col2          |            col3            |                                              col4                                              |
++------+--------+------------------------+----------------------------+------------------------------------------------------------------------------------------------+
+| 0    | value  | ... ++                 | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:96:3:96:21   |
+| 0    | value  | ... ++                 | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:96:3:96:21   |
+| 0    | value  | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:97:3:97:39   |
+| 0    | value  | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:97:3:97:39   |
+| 0    | value  | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:97:3:97:39   |
+| 0    | value  | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:97:3:97:39   |
+| 1    | memref | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:101:3:101:37 |
+| 1    | memref | ... = ...              | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:101:3:101:37 |
+| 1    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:102:3:102:13 |
+| 1    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:102:3:102:13 |
+| 1    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:102:3:102:13 |
+| 1    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:102:3:102:13 |
+| 2    | memref | call to TEE_MemCompare | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:107:8:107:21 |
+| 2    | memref | call to TEE_MemCompare | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:107:8:107:21 |
+| 2    | memref | call to TEE_MemCompare | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:107:8:107:21 |
+| 2    | memref | call to TEE_MemCompare | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:107:8:107:21 |
+| 2    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:115:3:115:13 |
+| 2    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:115:3:115:13 |
+| 2    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:115:3:115:13 |
+| 2    | memref | call to TEE_MemMove    | TA_InvokeCommandEntryPoint | file:///mnt/disk/synthesis/benchmark/external_rk_tee_user/ta/testapp/testapp_ta.c:115:3:115:13 |

@@ -1,0 +1,10 @@
+| col0 |  col1  |         col2         |     col3     |                                         col4                                          |
++------+--------+----------------------+--------------+---------------------------------------------------------------------------------------+
+| 0    | memref | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:178:2:178:30 |
+| 0    | memref | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:179:2:179:27 |
+| 1    | value  | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:180:2:180:27 |
+| 1    | value  | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:181:2:181:26 |
+| 2    | memref | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:182:2:182:33 |
+| 2    | memref | ... = ...            | image_data   | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:183:2:183:30 |
+| 0    | value  | call to trace_printf | clear_screen | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:105:2:105:63 |
+| 0    | value  | call to memset       | clear_screen | file:///mnt/disk/synthesis/benchmark/secvideo_demo/ta/secvideo_demo_ta.c:110:2:110:7  |

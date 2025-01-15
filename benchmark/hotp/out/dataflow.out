@@ -1,0 +1,8 @@
+| col0 |  col1  |   col2   |         col3         |        col4         |                                col5                                 |
++------+--------+----------+----------------------+---------------------+---------------------------------------------------------------------+
+| 0    | a      | uint32_t | ... = ...            | get_hotp            | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:191:2:191:29 |
+| 0    | size   | uint32_t | ... > ...            | register_shared_key | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:149:6:149:45 |
+| 0    | buffer | void *   | call to memcpy       | register_shared_key | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:153:2:153:7  |
+| 0    | size   | uint32_t | call to memcpy       | register_shared_key | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:153:2:153:7  |
+| 0    | size   | uint32_t | ... = ...            | register_shared_key | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:155:2:155:37 |
+| 0    | size   | uint32_t | call to trace_printf | register_shared_key | file:///mnt/disk/synthesis/benchmark/hotp/ta/hotp_ta.c:156:2:156:71 |

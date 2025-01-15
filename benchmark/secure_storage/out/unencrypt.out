@@ -1,0 +1,6 @@
+| col0 |        col1         |                                           col2                                           |
++------+---------------------+------------------------------------------------------------------------------------------+
+| size | ... = ...           | file:///mnt/disk/synthesis/benchmark/secure_storage/ta/secure_storage_ta.c:206:20:206:23 |
+| data | call to TEE_MemMove | file:///mnt/disk/synthesis/benchmark/secure_storage/ta/secure_storage_ta.c:214:40:214:43 |
+| size | ... = ...           | file:///mnt/disk/synthesis/benchmark/secure_storage/ta/secure_storage_ta.c:222:19:222:22 |
+| data | call to TEE_Free    | file:///mnt/disk/synthesis/benchmark/secure_storage/ta/secure_storage_ta.c:226:11:226:14 |

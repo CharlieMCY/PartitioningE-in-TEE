@@ -1,0 +1,29 @@
+| col0 |  col1  |   col2    |          col3           |                                           col4                                           |
++------+--------+-----------+-------------------------+------------------------------------------------------------------------------------------+
+| 0    | memref | ... = ... | g_CryptoTaHandle_base64 | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:505:5:505:38 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_base64 | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:506:5:506:35 |
+| 1    | memref | ... = ... | g_CryptoTaHandle_base64 | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:507:5:507:40 |
+| 1    | memref | ... = ... | g_CryptoTaHandle_base64 | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:508:5:508:36 |
+| 2    | value  | ... = ... | g_CryptoTaHandle_base64 | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:509:5:509:30 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Rsa    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:446:5:446:41 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Rsa    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:447:5:447:38 |
+| 1    | memref | ... = ... | g_CryptoTaHandle_Rsa    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:448:5:448:38 |
+| 1    | memref | ... = ... | g_CryptoTaHandle_Rsa    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:449:5:449:39 |
+| 2    | value  | ... = ... | g_CryptoTaHandle_Rsa    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:450:5:450:33 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Pbkdf  | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:423:5:423:40 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Pbkdf  | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:424:5:424:36 |
+| 0    | value  | ... = ... | g_CryptoTaHandle_Aes    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:391:5:391:45 |
+| 0    | value  | ... = ... | g_CryptoTaHandle_Aes    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:392:5:392:43 |
+| 1    | memref | ... = ... | g_CryptoTaHandle_Aes    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:393:5:393:45 |
+| 2    | memref | ... = ... | g_CryptoTaHandle_Aes    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:394:5:394:46 |
+| 3    | value  | ... = ... | g_CryptoTaHandle_Aes    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:395:5:395:41 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_hmac   | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:366:5:366:38 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_hmac   | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:367:5:367:39 |
+| 1    | value  | ... = ... | g_CryptoTaHandle_hmac   | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:368:5:368:31 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Sha    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:345:5:345:41 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Sha    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:346:5:346:38 |
+| 1    | value  | ... = ... | g_CryptoTaHandle_Sha    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:347:5:347:33 |
+| 2    | memref | ... = ... | g_CryptoTaHandle_Sha    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:348:5:348:38 |
+| 2    | memref | ... = ... | g_CryptoTaHandle_Sha    | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:349:5:349:39 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Random | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:325:5:325:39 |
+| 0    | memref | ... = ... | g_CryptoTaHandle_Random | file:///mnt/disk/synthesis/benchmark/basicAlg_use/ta/CryptoVerifyTaHandle.c:326:5:326:36 |

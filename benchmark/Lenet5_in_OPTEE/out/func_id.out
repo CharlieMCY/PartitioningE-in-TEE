@@ -1,0 +1,5 @@
+| col0 |         col1          |
++------+-----------------------+
+| 0    | call to ta_init       |
+| 1    | call to ta_trainBatch |
+| 2    | call to ta_predict    |

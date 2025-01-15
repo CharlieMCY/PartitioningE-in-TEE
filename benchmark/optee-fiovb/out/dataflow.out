@@ -1,0 +1,61 @@
+| col0 |  col1  |   col2   |                col3                |          col4          |                                   col5                                    |
++------+--------+----------+------------------------------------+------------------------+---------------------------------------------------------------------------+
+| 0    | buffer | void *   | ... = ...                          | delete_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:350:2:350:35  |
+| 0    | buffer | void *   | call to strncmp                    | delete_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:356:7:356:13  |
+| 0    | buffer | void *   | call to delete_value               | delete_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:359:8:359:19  |
+| 0    | buffer | void *   | call to get_named_object_name      | delete_value           | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:147:8:147:28  |
+| 0    | buffer | void *   | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... = ...                          | delete_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:351:2:351:36  |
+| 0    | size   | uint32_t | call to delete_value               | delete_persist_value   | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:359:8:359:19  |
+| 0    | size   | uint32_t | call to get_named_object_name      | delete_value           | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:147:8:147:28  |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:31:6:31:30    |
+| 0    | size   | uint32_t | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:41:15:41:39   |
+| 0    | buffer | void *   | ... = ...                          | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:311:2:311:35  |
+| 0    | buffer | void *   | call to check_valid_value          | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:314:6:314:22  |
+| 0    | buffer | void *   | call to trace_printf               | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:315:3:315:32  |
+| 0    | buffer | void *   | call to read_value                 | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:324:8:324:17  |
+| 0    | buffer | void *   | call to get_named_object_name      | read_value             | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:116:8:116:28  |
+| 0    | buffer | void *   | call to trace_printf               | read_value             | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:124:3:124:67  |
+| 0    | buffer | void *   | call to trace_printf               | read_value             | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:130:3:130:67  |
+| 0    | buffer | void *   | call to strcmp                     | check_valid_value      | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:58:7:58:12    |
+| 0    | buffer | void *   | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... = ...                          | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:312:2:312:36  |
+| 0    | size   | uint32_t | call to read_value                 | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:324:8:324:17  |
+| 0    | size   | uint32_t | call to get_named_object_name      | read_value             | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:116:8:116:28  |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:31:6:31:30    |
+| 0    | size   | uint32_t | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:41:15:41:39   |
+| 1    | size   | uint32_t | ... = ...                          | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:319:2:319:33  |
+| 1    | size   | uint32_t | call to TEE_Malloc                 | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:320:10:320:19 |
+| 1    | size   | uint32_t | call to read_value                 | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:324:8:324:17  |
+| 1    | size   | uint32_t | call to TEE_MemMove                | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:326:2:326:12  |
+| 1    | size   | uint32_t | call to TEE_ReadObjectData         | read_value             | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:128:9:128:26  |
+| 1    | buffer | void *   | call to TEE_MemMove                | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:326:2:326:12  |
+| 1    | size   | uint32_t | ... = ...                          | read_persist_value     | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:329:2:329:30  |
+| 0    | buffer | void *   | ... = ...                          | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:243:2:243:35  |
+| 0    | buffer | void *   | call to check_valid_value          | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:246:6:246:22  |
+| 0    | buffer | void *   | call to trace_printf               | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:247:3:247:32  |
+| 0    | buffer | void *   | call to strncmp                    | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:260:7:260:13  |
+| 0    | buffer | void *   | call to strncmp                    | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:281:6:281:12  |
+| 0    | buffer | void *   | call to write_value                | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:282:9:282:19  |
+| 0    | buffer | void *   | call to get_named_object_name      | write_value            | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:84:8:84:28    |
+| 0    | buffer | void *   | call to trace_printf               | write_value            | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:94:3:95:17    |
+| 0    | buffer | void *   | call to trace_printf               | write_value            | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:97:3:98:17    |
+| 0    | buffer | void *   | call to strcmp                     | check_valid_value      | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:58:7:58:12    |
+| 0    | buffer | void *   | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... = ...                          | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:244:2:244:36  |
+| 0    | size   | uint32_t | call to write_value                | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:282:9:282:19  |
+| 0    | size   | uint32_t | call to get_named_object_name      | write_value            | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:84:8:84:28    |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:31:6:31:30    |
+| 0    | size   | uint32_t | call to TEE_MemMove                | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:39:2:39:12    |
+| 0    | size   | uint32_t | ... + ...                          | get_named_object_name  | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:41:15:41:39   |
+| 1    | size   | uint32_t | ... = ...                          | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:263:2:263:33  |
+| 1    | size   | uint32_t | call to TEE_Malloc                 | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:264:10:264:19 |
+| 1    | size   | uint32_t | call to TEE_MemMove                | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:268:2:268:12  |
+| 1    | size   | uint32_t | call to write_value                | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:282:9:282:19  |
+| 1    | size   | uint32_t | call to increase_boot_firmware     | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:286:9:286:30  |
+| 1    | size   | uint32_t | call to is_version_incremental     | increase_boot_firmware | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:217:7:217:28  |
+| 1    | size   | uint32_t | call to write_value                | increase_boot_firmware | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:222:9:222:19  |
+| 1    | size   | uint32_t | call to TEE_CreatePersistentObject | write_value            | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:89:8:89:33    |
+| 1    | buffer | void *   | call to TEE_MemMove                | write_persist_value    | file:///mnt/disk/synthesis/benchmark/optee-fiovb/ta/entry.c:268:2:268:12  |

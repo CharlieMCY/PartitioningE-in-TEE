@@ -1,0 +1,82 @@
+|      col0       |  col1  |   col2   |        col3        |     col4      |                                       col5                                        |
++-----------------+--------+----------+--------------------+---------------+-----------------------------------------------------------------------------------+
+| 1               | a      | uint32_t | ... = ...          | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:5:156:66  |
+| 0               | buffer | void *   | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| 0               | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| 0               | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| 0               | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| 0               | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| 0               | buffer | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | buffer | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | buffer | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | buffer | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | buffer | image    | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| 0               | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| 0               | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| 0               | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| 0               | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| 0               | buffer | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | buffer | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | buffer | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | buffer | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | * ...  | void *   | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| 0               | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| 0               | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| 0               | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| 0               | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| 0               | * ...  | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | * ...  | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | * ...  | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | * ...  | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | * ...  | image    | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| 0               | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| 0               | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| 0               | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| 0               | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| 0               | * ...  | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | * ...  | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | * ...  | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| 0               | * ...  | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | buffer | void *   | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| access to array | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| access to array | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| access to array | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| access to array | buffer | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| access to array | buffer | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | buffer | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | buffer | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | buffer | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | buffer | image    | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| access to array | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| access to array | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| access to array | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| access to array | buffer | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| access to array | buffer | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | buffer | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | buffer | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | buffer | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | * ...  | void *   | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| access to array | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| access to array | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| access to array | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| access to array | * ...  | void *   | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| access to array | * ...  | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | * ...  | void *   | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | * ...  | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | * ...  | void *   | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | * ...  | image    | call to load_input | Predict       | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:297:2:297:11      |
+| access to array | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:191:11:191:18     |
+| access to array | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:10:192:17     |
+| access to array | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:192:24:192:31     |
+| access to array | * ...  | image    | access to array    | load_input    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:200:42:200:49     |
+| access to array | * ...  | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | * ...  | image    | call to Predict    | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| access to array | * ...  | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:25:156:31 |
+| access to array | * ...  | image    | * ...              | ta_predict    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:156:33:156:65 |
+| 0               | buffer | void *   | access to array    | TrainBatch    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:280:25:280:33     |
+| 0               | buffer | void *   | ... = ...          | ta_trainBatch | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:115:2:115:44  |
+| 0               | buffer | void *   | call to TrainBatch | ta_trainBatch | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:137:5:137:14  |
+| 1               | buffer | void *   | access to array    | TrainBatch    | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet.c:282:35:282:43     |
+| 1               | buffer | void *   | ... = ...          | ta_trainBatch | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:116:2:116:44  |
+| 1               | buffer | void *   | call to TrainBatch | ta_trainBatch | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:137:5:137:14  |
+| 0               | size   | uint32_t | ... / ...          | ta_trainBatch | file:///mnt/disk/synthesis/benchmark/Lenet5_in_OPTEE/ta/lenet5_ta.c:117:8:117:44  |

@@ -1,0 +1,7 @@
+| col0 |  col1  |   col2   |            col3            |          col4          |                                     col5                                      |
++------+--------+----------+----------------------------+------------------------+-------------------------------------------------------------------------------+
+| 0    | size   | uint32_t | call to TEE_Malloc         | random_number_generate | file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:78:8:78:17 |
+| 0    | size   | uint32_t | call to trace_printf       | random_number_generate | file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:81:2:81:69 |
+| 0    | size   | uint32_t | call to TEE_GenerateRandom | random_number_generate | file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:90:2:90:19 |
+| 0    | buffer | void *   | call to TEE_MemMove        | random_number_generate | file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:91:2:91:12 |
+| 0    | size   | uint32_t | call to TEE_MemMove        | random_number_generate | file:///mnt/disk/synthesis/benchmark/random/ta/random_example_ta.c:91:2:91:12 |

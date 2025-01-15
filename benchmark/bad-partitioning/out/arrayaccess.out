@@ -1,0 +1,9 @@
+| col0 | col1 |   col2   |   col3    |    col4    |                                      col5                                      |
++------+------+----------+-----------+------------+--------------------------------------------------------------------------------+
+| 3    | size | uint32_t | ... - ... | input      | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:293:45:293:69 |
+| 0    | a    | uint32_t | ... - ... | input      | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:295:10:295:30 |
+| 0    | a    | uint32_t | ... - ... | input      | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:296:10:296:31 |
+| 0    | a    | uint32_t | ... - ... | produce_i0 | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:231:15:231:19 |
+| 0    | a    | uint32_t | ... - ... | produce_i3 | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:258:15:258:19 |
+| 0    | a    | uint32_t | ... - ... | produce_i3 | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:264:10:264:14 |
+| 0    | a    | uint32_t | ... - ... | produce_i2 | file:///mnt/disk/synthesis/benchmark/bad-partitioning/ta/entry.c:210:15:210:35 |
