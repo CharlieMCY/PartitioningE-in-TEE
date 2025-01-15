@@ -6,8 +6,7 @@ This tool is designed to identify **bad partitioning issues** in Trusted Executi
 ## Dependencies
 
 - **CodeQL**: [Installation Guide](https://codeql.github.com/docs/)
-- **gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf**: [Download](https://releases.linaro.org/components/toolchain/binaries/)
-- Update the `config.mk` file by the locally downloaded cross-compilation tool.
+- **gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf**: [Download](https://releases.linaro.org/components/toolchain/binaries/) and update the `config.mk` file.
 
 ## Directory Structure
 
